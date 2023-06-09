@@ -1,0 +1,4 @@
+testmodels
+build
+*.o
+*.a

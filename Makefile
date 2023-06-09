@@ -209,3 +209,8 @@ clean:
 
 test: libbinding.a
 	@C_INCLUDE_PATH=${INCLUDE_PATH} LIBRARY_PATH=${LIBRARY_PATH} go test -v ./...
+
+model:
+	rm -rf testmodels
+	mkdir -p testmodels
+	wget https://huggingface.co/Merry/ggml-pythia-deduped/resolve/main/ggmlv3-pythia-70m-deduped-q5_1.bin -O testmodels/model.bin

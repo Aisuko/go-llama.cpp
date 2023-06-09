@@ -1,0 +1,10 @@
+{
+	"go.toolsManagement.checkForUpdates": "local",
+	"go.useLanguageServer": true,
+	"go.gopath": "/go",
+	"go.testEnvVars": {
+		"C_INCLUDE_PATH":"${workspaceFolder}",
+		"LIBRARY_PATH":"${workspaceFolder}",
+		"MODELS_PATH":"${workspaceFolder}/testmodels/model.bin"
+	}
+}
