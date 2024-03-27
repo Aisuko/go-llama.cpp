@@ -1,0 +1,166 @@
+repo_name: Aisuko/go-llama.cpp
+report_id: 5861fb6bfdb3f292e2b4a8d49ca05211
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-27T23:25:59+00:00'
+requested_by: mudler
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/.github/workflows/test.yaml
+  detection_source: ".github/workflows/test.yaml"
+  last_updated_by: Ettore Di Giacinto
+  last_updated_on: 2023-06-04 23:54:46.000000000 Z
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: mudler
+  last_updated_on: 2023-04-03 22:32:52.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 1.27.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-06-07 12:39:50.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-05-03 03:36:22.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: mudler
+  last_updated_on: 2023-04-03 22:32:52.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: mudler
+  last_updated_on: 2023-04-15 14:49:52.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: mudler
+  last_updated_on: 2023-04-03 22:32:52.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-05-03 03:36:22.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.9.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Aisuko/go-llama.cpp/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-06-08 19:36:29.000000000 Z
